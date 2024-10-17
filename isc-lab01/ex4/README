@@ -1,0 +1,3 @@
+cu file vedem ca e un gzip dar verificand magic numberul din header vedem ca e reversed
+cu xxd -r il reversuim si copiem intro chestie cu extensia .gz
+apoi gzip -d pe ala si gata

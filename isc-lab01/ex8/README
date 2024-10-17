@@ -1,0 +1,12 @@
+doamne ce ex idiot
+ne uitam la bin
+e ascii text da trb facut hexdump ca altfel nu pot lucra cu el facem un xxd revrsed
+xxd -r bin > compressed
+asta compressed va fi un gzip
+redenumim ca altfel se supara -> compressed.gz
+gzip -d compressed.gz
+obtin un tar 
+tar -xvf compressed
+da un bz2 
+bazip2 -d <arhoiva>
+si tot asa pana cand : ISC{am-i-still-sane}
